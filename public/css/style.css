@@ -1,0 +1,148 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/* Reset CSS */
+
+/* Remove margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Define a caixa de modelo como 'border-box' para todos os elementos */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+/* Remove a decoração de texto padrão */
+a {
+    text-decoration: none !important;
+    font-family: sans-serif;
+}
+
+/* Define a cor do texto como preto */
+body {
+    color: black;
+    text-decoration: none;
+}
+
+/* Remove as listas padrão de marcadores e numeração */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove o espaçamento vertical entre linhas */
+li {
+    line-height: 1;
+}
+
+/* Define a fonte padrão como sans-serif */
+body {
+
+    font-size: 16px;
+}
+
+/* Redefine as propriedades de cabeçalho */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin: 0;
+    font-family: 'Mada', sans-serif !important;
+}
+
+/* Redefine as propriedades de parágrafos */
+p {
+    margin: 0;
+}
+
+/* Redefine as propriedades de imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.avisited {
+    color: #000 !important;
+    /* Define a cor desejada para links visitados */
+}
+
+.avisited:visited {
+    color: #000 !important;
+    /* Define a cor desejada para links visitados */
+}
+
+.corTextoVerde {
+    color: #07f142;
+}
+
+.corTextoVerde:hover {
+    color: #033221;
+}
+
+.corTextoVerde:visited {
+    color: #07f142;
+    /* Define a cor desejada para links visitados */
+}
+
+.backgroundImg {
+    background-image: url("../img/bg-geral.png");
+    background-repeat: repeat;
+}
+
+.icon-nav-top {
+    font-size: 20;
+}
+
+.tamanho-icone-grande {
+    font-size: 80;
+}
+
+.borderBtnRounded {
+    border-radius: 50px !important;
+}
+
+.status-box {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bg-green {
+    background-color: #28a745;
+}
+
+.bg-red {
+    background-color: #dc3545;
+}
+
+#logo {
+    width: 180px;
+}
+
+#topbar {
+    background-color: #009B63;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+#navbar {
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(34, 34, 34, 0.05);
+}
+
+#formlogin {
+    background-color: #fff;
+    border: #898888cf 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
